@@ -1,5 +1,7 @@
 package ru.sberbank.service;
 
+import ru.sberbank.data.Developer;
+import ru.sberbank.data.TeamMember;
 import ru.sberbank.data.Tester;
 
 import java.util.ArrayList;
@@ -8,6 +10,9 @@ public class TesterService extends AbstractStorage<Tester> implements DataServic
 
     public TesterService(){
         super();
+    }
+    public void add(TeamMember teamMember){
+
     }
 
     @Override

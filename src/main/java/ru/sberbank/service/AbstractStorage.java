@@ -1,5 +1,6 @@
 package ru.sberbank.service;
 
+import ru.sberbank.data.Developer;
 import ru.sberbank.data.TeamMember;
 
 import java.util.ArrayList;
@@ -12,4 +13,5 @@ public abstract class AbstractStorage<T extends TeamMember> {
         this.list = new ArrayList<>();
     }
 
+    public abstract void add(TeamMember teamMember);
 }

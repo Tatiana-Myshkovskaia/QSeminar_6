@@ -1,6 +1,7 @@
 package ru.sberbank.service;
 
 import ru.sberbank.data.Developer;
+import ru.sberbank.data.TeamMember;
 
 import java.util.ArrayList;
 
@@ -8,6 +9,9 @@ public class DeveloperService extends AbstractStorage<Developer> implements Data
 
     public DeveloperService() {
         super();
+    }
+    public void add(TeamMember teamMember){
+
     }
 
     @Override
